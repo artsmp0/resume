@@ -4,6 +4,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* todo */
   color: #333;
   font-size: 14px;
   font-weight: 500;
