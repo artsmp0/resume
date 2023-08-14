@@ -1,5 +1,6 @@
 import { For, type Component, Show, Switch, Match } from "solid-js";
 import { InfoList } from "./InfoList";
+import { Technology } from "./Technology";
 
 const App: Component = () => {
   return (
@@ -8,7 +9,9 @@ const App: Component = () => {
         <h1 class="text-2xl font-semibold">沈孟平</h1>
         <InfoList />
       </div>
-      <div class="content"></div>
+      <div class="content">
+        <Technology />
+      </div>
     </div>
   );
 };
