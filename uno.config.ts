@@ -3,7 +3,12 @@ import { defineConfig, presetIcons, presetUno } from "unocss";
 
 export default defineConfig({
   // ...UnoCSS options
-  presets: [presetUno(), presetIcons()],
+  presets: [
+    presetUno(),
+    presetIcons({
+      scale: 1.2,
+    }),
+  ],
   shortcuts: [
     ["fvc", "flex items-center"],
     ["fhc", "flex justify-center"],
