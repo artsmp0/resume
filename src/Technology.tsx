@@ -4,7 +4,7 @@ import Title from "./components/Title";
 
 export const Technology: Component = () => {
   return (
-    <section>
+    <section class="mb4">
       <Title>技术特点</Title>
       <ul class="list-disc list-inside">
         <li>

@@ -5,7 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* todo */
-  color: #333;
+  color: #334155;
   font-size: 14px;
   font-weight: 500;
   background-color: #fcf6e5;
@@ -14,4 +14,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+section li {
+  margin-bottom: 8px;
+}
+
+section li:last-child {
+  margin-bottom: 0;
 }
