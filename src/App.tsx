@@ -2,6 +2,7 @@ import { For, type Component, Show, Switch, Match } from "solid-js";
 import { InfoList } from "./InfoList";
 import { Technology } from "./Technology";
 import { Works } from "./Works";
+import { Projects } from "./Projects";
 
 const App: Component = () => {
   return (
@@ -13,6 +14,7 @@ const App: Component = () => {
       <div class="px8 lh-[1.5]">
         <Technology />
         <Works />
+        <Projects />
       </div>
     </div>
   );
