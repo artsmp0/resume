@@ -22,7 +22,7 @@ export const Works: Component = () => {
           <li>
             为了提升项目的访问性能，主动负责前端接入 `oss cdn`
             相关方案的落地，将所负责项目的 lighthouse 跑分
-            <TextTag>从 83 分提升到 92 分</TextTag>；
+            <TextTag>从 83 分提升到 92 分</TextTag>。
           </li>
         </ol>
       </div>

@@ -3,6 +3,7 @@ import { InfoList } from "./InfoList";
 import { Technology } from "./Technology";
 import { Works } from "./Works";
 import { Projects } from "./Projects";
+import { SelfEValuation } from "./SelfEValuation";
 
 const App: Component = () => {
   return (
@@ -15,6 +16,7 @@ const App: Component = () => {
         <Technology />
         <Works />
         <Projects />
+        <SelfEValuation />
       </div>
     </div>
   );

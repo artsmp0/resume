@@ -12,7 +12,7 @@ export const Projects: Component = () => {
         <ul>
           <li>
             <TextTag>技术栈：</TextTag>
-            pnpm + vite + vue3 + typescript + sass + arco-design-vue + wps
+            pnpm + vite + vue3 + typescript + sass + arco-design-vue + wps。
           </li>
           <li>
             <TextTag>目的：</TextTag>{" "}
